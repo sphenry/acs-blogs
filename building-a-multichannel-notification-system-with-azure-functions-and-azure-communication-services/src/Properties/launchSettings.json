@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "acs_gpt_functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7000",
+      "launchBrowser": false
+    }
+  }
+}

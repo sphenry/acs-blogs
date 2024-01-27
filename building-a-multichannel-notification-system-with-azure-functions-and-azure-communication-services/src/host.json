@@ -1,0 +1,24 @@
+{
+    "version": "2.0",
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            },
+            "enableLiveMetricsFilters": true
+        }
+    },
+    "extensions": {
+        "http": {
+          "routePrefix": "api"
+        },
+        "OpenApi": {
+          "info": {
+            "version": "1.0.0",
+            "title": "Your API Title",
+            "description": "Your API Description"
+          }
+        }
+      }
+}
